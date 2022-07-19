@@ -36,3 +36,62 @@
     transform: rotate(360deg);
   }
 }
+
+.mainContainer {
+  border: 2px solid black;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 150px;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.userInput {
+  width: 100%;
+}
+.routesContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.inputFieldContainer {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.numberDisplay {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.listDisplay {
+  border: 2px solid black;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+  justify-content: center;
+}
+
+.listContainer {
+  height: 50%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.number {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}

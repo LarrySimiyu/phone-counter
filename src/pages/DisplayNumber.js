@@ -15,7 +15,6 @@ const DisplayNumber = () => {
       phoneNumbers.push(number);
       i++;
     }
-    console.log(phoneNumbers, "current count");
     return (
       <div>
         {phoneNumbers.map((number) => {

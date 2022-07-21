@@ -43,30 +43,43 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 150px;
+  height: 40%;
   justify-content: center;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-.userInput {
+.numberInput {
   width: 100%;
 }
 .routesContainer {
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.inputFieldContainer {
+.contentContainer {
   width: 75%;
+  height: 75%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .numberDisplay {
   font-weight: bold;
   margin-bottom: 10px;
+  font-size: 30px;
+  color: green;
+}
+
+.numberDisplayRed {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 30px;
+  color: red;
 }
 
 .listDisplay {
@@ -75,7 +88,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 50vh;
+  height: 50%;
   justify-content: center;
 }
 
@@ -89,6 +102,40 @@
 .number {
   font-weight: bold;
   margin-bottom: 3px;
+  font-size: 20px;
+}
+
+.warningMessage {
+  color: red;
+  font-weight: bold;
+}
+
+.successMessage {
+  color: green;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.disabledButton {
+  color: white;
+  background-color: red;
+  border: 2px solid white;
+  width: 50%;
+  height: 50px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.submitButton {
+  color: white;
+  background-color: green;
+  border: 2px solid black;
+  width: 50%;
+  height: 50px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 textarea:focus,
